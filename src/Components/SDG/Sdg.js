@@ -1,7 +1,7 @@
 
-import { Grid } from '@mui/material';
+import {  Grid } from '@mui/material';
 import React from 'react';
-import { Container } from 'react-bootstrap';
+import {  Container, Button } from 'react-bootstrap';
 import logomini from '../../Assets/logo icon.png'
 
 import num1 from '../../Assets/SDG/Group 396.svg'
@@ -86,7 +86,15 @@ const Sdg = () => {
 </div>
   </Grid>
 </Grid>
-        </div>   
+        </div > 
+
+        <div   className='text-center mt-4' >
+        <Button variant="success" size="lg">
+        View More
+    </Button> 
+        </div>
+
+        
         </Container>
         </div>
     );
