@@ -24,7 +24,7 @@ const Banner = () => {
 
 
     <Col  lg={7}  md={7} sm={12} xs={12}>
-    <Image flued
+    <Image fluid
       alt="banner"
       src={banner}
       layout="intrinsic"

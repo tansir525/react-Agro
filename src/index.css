@@ -10,3 +10,9 @@ body {
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
+
+@media (min-width: 350px) {
+    .custom-h1 {
+        font-size: 50px;
+    }
+}

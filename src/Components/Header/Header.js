@@ -8,8 +8,9 @@ import './Header.css'
 const Header = () => {
     return (
         <>
-<Navbar collapseOnSelect expand="lg" bg="light" variant="light" sticky="top">
-  <Container>
+        <Container>
+<Navbar collapseOnSelect expand="lg , md"  sticky="top">
+  
 
   <Navbar.Brand href="#home">       <img
         src={logo}
@@ -21,10 +22,10 @@ const Header = () => {
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="mx-auto">
-      <Nav.Link href="#home"  >Home</Nav.Link>
-      <Nav.Link href="#about">About</Nav.Link>
-      <Nav.Link href="#career">Career</Nav.Link>
-      <Nav.Link href="#contact">Contact Us</Nav.Link>
+      <Nav.Link className='custom-nav' href="#home" >Home</Nav.Link>
+      <Nav.Link className='custom-nav' href="#about">About</Nav.Link>
+      <Nav.Link className='custom-nav' href="#career">Career</Nav.Link>
+      <Nav.Link className='custom-nav' href="#contact">Contact Us</Nav.Link>
       
       {/* <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
         <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
@@ -38,8 +39,9 @@ const Header = () => {
       <Nav.Link href="#profile"> <BsPersonCircle/></Nav.Link>      
     </Nav>
   </Navbar.Collapse>
-  </Container>
+  
 </Navbar>
+</Container>
         </>
     );
 };
