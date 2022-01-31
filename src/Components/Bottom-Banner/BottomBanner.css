@@ -1,0 +1,13 @@
+.customBottomBanner {
+    background-image: url(../../Assets/btb.png);
+    height: 400px;
+    width: 100%;
+    background-repeat: repeat;
+    background-position: cover;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.custombottombannerbackground {
+    background-color: #bdbdbd2d;
+}
