@@ -15,11 +15,11 @@ const Footer = () => {
 
   <Grid container spacing={2}>
   <Grid item xs={6} md={4}>
-  <img
+  <img 
         src={logo}
         width="70%"
         height="60%"
-        className="d-inline-block align-top "
+        className="d-inline-block align-top img-fluid"
         alt="React Bootstrap logo"
  />
 
