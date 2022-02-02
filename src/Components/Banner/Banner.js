@@ -1,4 +1,5 @@
 
+import { motion } from 'framer-motion';
 import React from 'react';
 import { Button, Col, Container, Image, Row } from 'react-bootstrap';
 import banner from '../../Assets/banner-image-1-1.png'
@@ -13,7 +14,9 @@ const Banner = () => {
         <Col lg={5}  md={5} sm={12} xs={12} >
         <div>
             
-            <h1 className='custom-h1' > <span style={{color: 'green', letterSpacing: '5px'}}>AGRO</span><span style={{color: '#063340'}}>VERSE</span></h1>
+            <motion.h1 animate={{ y: -6 , x: 6}}
+                       transition={{ duration: 1 }}
+                       className='custom-h1' > <span style={{color: 'green', letterSpacing: '5px'}}>AGRO</span><span style={{color: '#063340'}}>VERSE</span></motion.h1>
             <h5 style={{color: '#0A3340', fontWeight:'bold'}}>Best Quality of food Products</h5>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis hic dolor nihil vitae provident <br />, necessitatibus a odio beatae cupiditate id eos ducimus dolores asperiores quidem nemo distinctio saepe ullam? Pariatur?</p>
        
