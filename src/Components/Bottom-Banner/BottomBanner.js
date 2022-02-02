@@ -19,7 +19,7 @@ const BottomBanner = () => {
  
                <div className='ms-5'>
                <h3>Lorem Ipsum</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione laborum quae <br /> perferendis ducimus at ut dolorum obcaecati suscipit odio neque.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br /> Ratione laborum quae perferendis ducimus at ut dolorum <br />  obcaecati suscipit odio neque.</p>
                 </div>
 
                 

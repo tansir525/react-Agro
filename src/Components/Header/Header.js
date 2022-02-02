@@ -8,8 +8,9 @@ import './Header.css'
 const Header = () => {
     return (
         <>
-        <Container>
-<Navbar collapseOnSelect expand="lg , md"  sticky="top">
+        <Navbar collapseOnSelect expand="lg , md"  sticky="top" bg="light">
+        <Container >
+
   
 
   <Navbar.Brand href="#home">       <img
@@ -26,22 +27,15 @@ const Header = () => {
       <Nav.Link className='custom-nav' href="#about">About</Nav.Link>
       <Nav.Link className='custom-nav' href="#career">Career</Nav.Link>
       <Nav.Link className='custom-nav' href="#contact">Contact Us</Nav.Link>
-      
-      {/* <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-        <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-        <NavDropdown.Divider />
-        <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-      </NavDropdown> */}
+    
     </Nav>
     <Nav>
       <Nav.Link href="#profile"> <BsPersonCircle/></Nav.Link>      
     </Nav>
   </Navbar.Collapse>
-  
+  </Container>
 </Navbar>
-</Container>
+
         </>
     );
 };
