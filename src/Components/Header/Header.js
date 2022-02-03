@@ -7,11 +7,9 @@ import './Header.css'
 
 const Header = () => {
     return (
-        <>
-        <Navbar collapseOnSelect expand="lg , md"  sticky="top" bg="light">
+        <div>
+        <Navbar className='p-3'collapseOnSelect expand="lg , md"  fixed="top"    bg="light">
         <Container >
-
-  
 
   <Navbar.Brand href="#home">       <img
         src={logo}
@@ -36,7 +34,7 @@ const Header = () => {
   </Container>
 </Navbar>
 
-        </>
+        </div>
     );
 };
 

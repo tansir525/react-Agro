@@ -10,7 +10,7 @@ import SubBanner from '../SubBanner/SubBanner';
 const Home = () => {
     return (
         <>
-          
+        
            <Banner/> 
            <SubBanner/>
            <Sdg/>

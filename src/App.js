@@ -7,12 +7,12 @@ import GlobalStyle from '../src/Components/styles/GlobalStyle';
 
 function App() {
   return (
-    <>
+    <div>
     <Header/>
-  <Home></Home>
+    <Home/>
     <Footer/>
     <GlobalStyle/>
-    </>
+    </div>
   );
 }
 

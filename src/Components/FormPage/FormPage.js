@@ -6,7 +6,7 @@ import logomini from '../../Assets/logo icon.png'
 const FormPage = () => {
     return (
         <Container>
-              <div className='subbanner text-left mb-5 mt-4'>
+              <div  className='subbanner text-left mb-5 mt-4'>
             <h1> <img className='sub-logo mb-2' src={logomini} alt="" srcset="" /> Contact Us</h1>
             
         </div>
