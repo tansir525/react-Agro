@@ -31,7 +31,7 @@ const SubBanner = () => {
         <div className='mb-5'>
     <Grid container spacing={3}>
    
-  <Grid item xs={3}>
+  <Grid item lg={3}  md={4} sm={12} xs={12}>
     <Item>
     <CardActionArea>
     <img className='py-2' src={harb} alt="" srcset="" />
@@ -47,7 +47,7 @@ const SubBanner = () => {
 
     </Item>
   </Grid>
-  <Grid item xs={3}>
+  <Grid item lg={3}  md={4} sm={12} xs={12}>
     <Item>
     <CardActionArea>
     <img className='py-2' src={agri} alt="" srcset="" />
@@ -63,7 +63,7 @@ const SubBanner = () => {
 
     </Item>
   </Grid>
-  <Grid item xs={3}>
+  <Grid item lg={3}  md={4} sm={12} xs={12}>
     <Item>
     <CardActionArea>
     <img className='py-2' src={lightning} alt="lightning" srcset="" />
@@ -78,7 +78,7 @@ const SubBanner = () => {
       </CardActionArea>
     </Item>
   </Grid>
-  <Grid item xs={3}>
+  <Grid item lg={3}  md={4} sm={12} xs={12}>
     <Item>
     <CardActionArea>
         <img className='py-2' src={tractor} alt="tractor" srcset="" />

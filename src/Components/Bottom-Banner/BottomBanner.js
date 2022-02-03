@@ -25,7 +25,7 @@ const BottomBanner = () => {
                 
             </div>
             <Grid container spacing={2}>
-            <Grid item xs={6}>
+            <Grid item lg={6}  md={6} sm={12} xs={12}>
                 <h3 className='pb-3'>Lorem Ipsum</h3>
                 
                 <Grid container spacing={2}>
@@ -47,7 +47,7 @@ const BottomBanner = () => {
 
                 
             </Grid>
-            <Grid item xs={6}>
+            <Grid item lg={6}  md={6} sm={12} xs={12}>
                <h3 className='pb-3'>Lorem Ipsum </h3> 
                <Grid container spacing={2}>
                 <Grid item xs={6}>

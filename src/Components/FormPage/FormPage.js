@@ -1,14 +1,19 @@
 import { Grid } from '@mui/material';
 import React from 'react';
 import { Button, Container, Form } from 'react-bootstrap';
+import logomini from '../../Assets/logo icon.png'
 
 const FormPage = () => {
     return (
         <Container>
+              <div className='subbanner text-left mb-5 mt-4'>
+            <h1> <img className='sub-logo mb-2' src={logomini} alt="" srcset="" /> Contact Us</h1>
+            
+        </div>
 
 <div className='m-5 p-5'>
 <Grid container spacing={2}>
-  <Grid item xs={6}>
+  <Grid item lg={6}  md={6} sm={12} xs={12}>
 
   <Form>
   <Form.Group className="mb-3">
@@ -42,9 +47,10 @@ const FormPage = () => {
 </Form>
     
   </Grid>
-  <Grid item xs={6}>
-  <h1 className='text-center'>Contact Us</h1> 
-   <h2 className='text-center'>We care about your thought</h2>
+  <Grid className='p-4 mt-3' item lg={6}  md={6} sm={12} xs={12}>
+
+   <h2 style={{color: '#0A3340', fontWeight:'bold'}} className='text-center mb-5 mx-4'>WE CARE ABOUT YOUR THOUGHT</h2>
+   <p className='text-center'> lot 2770-C, Jalan Industri 12, Kampung Baru Sungai Buloh, 47000 Sungai Buloh, Selangor </p>
   </Grid>
 </Grid>
 

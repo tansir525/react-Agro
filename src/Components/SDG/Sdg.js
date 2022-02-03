@@ -24,7 +24,7 @@ const Sdg = () => {
         <div>
 
         <Grid container spacing={5}>
-  <Grid item xs={6}>
+  <Grid item lg={6}  md={6} sm={12} xs={12}>
 <div className='d-flex p-2'>
     <div>
 <img src={num1} alt="" srcset="" />
@@ -36,7 +36,7 @@ const Sdg = () => {
     </div>
 </div>
   </Grid>
-  <Grid item xs={6}>
+  <Grid item lg={6}  md={6} sm={12} xs={12}>
   <div className='d-flex p-2'>
     <div>
 <img src={num2} alt="" srcset="" />
@@ -49,7 +49,7 @@ const Sdg = () => {
 </div>
 
   </Grid>
-  <Grid item xs={6}>
+  <Grid item lg={6}  md={6} sm={12} xs={12}>
   <div className='d-flex p-2'>
     <div>
 <img src={num3} alt="" srcset="" />
@@ -61,7 +61,7 @@ const Sdg = () => {
     </div>
 </div>
   </Grid>
-  <Grid item xs={6}>
+  <Grid item lg={6}  md={6} sm={12} xs={12}>
   <div className='d-flex p-2'>
     <div>
 <img src={num4} alt="" srcset="" />
@@ -73,7 +73,7 @@ const Sdg = () => {
     </div>
 </div>
   </Grid>
-  <Grid item xs={6}>
+  <Grid item lg={6}  md={6} sm={12} xs={12}>
   <div className='d-flex p-2'>
     <div>
 <img src={num5} alt="" srcset="" />
