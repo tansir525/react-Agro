@@ -10,7 +10,7 @@ const Banner = () => {
        <Container>
            
 
-        <Row className=' d-flex justify-content-around align-items-center'>
+        <Row className=' d-flex justify-content-around align-items-center mt-4'>
         <Col lg={5}  md={5} sm={12} xs={12} >
         <div>
             
