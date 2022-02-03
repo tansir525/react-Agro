@@ -15,7 +15,7 @@ import num5 from '../../Assets/SDG/Group 380.svg'
 
 const Sdg = () => {
     return (
-        <div className='Subbanner-root'>
+        <div className='Subbanner-root pb-5'>
         <Container>
           <div className='subbanner text-left mb-5'>
             <h1> <img className='sub-logo mb-2' src={logomini} alt="" srcset="" /> Our Objective</h1>
@@ -88,11 +88,11 @@ const Sdg = () => {
 </Grid>
         </div > 
 
-        <div   className='text-center mt-4' >
+        {/* <div   className='text-center mt-4' >
         <Button variant="success" size="lg">
         View More
     </Button> 
-        </div>
+        </div> */}
 
         
         </Container>

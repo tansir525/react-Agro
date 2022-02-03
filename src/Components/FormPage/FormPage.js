@@ -12,7 +12,7 @@ const FormPage = () => {
         </div>
 
 <div className='m-5 p-5'>
-<Grid container spacing={2}>
+<Grid  container spacing={4}>
   <Grid item lg={6}  md={6} sm={12} xs={12}>
 
   <Form>
