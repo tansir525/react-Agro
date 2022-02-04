@@ -11,7 +11,7 @@ const Header = () => {
         <Navbar className='px-3 py-2'collapseOnSelect expand="lg , md"  fixed="top"    bg="light">
         <Container >
 
-  <Navbar.Brand href="#home">       <img
+  <Navbar.Brand className='custom-logo' href="#home">       <img
         src={logo}
         width="130"
         height="32"
@@ -20,8 +20,9 @@ const Header = () => {
       /> </Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
-    <Nav className="mx-auto">
-      <Nav.Link className='custom-nav' href="#home" >Home</Nav.Link>
+    <Nav  className="mx-auto">
+      
+      <Nav.Link className='custom-nav active' href="#home" >Home</Nav.Link>
       <Nav.Link className='custom-nav' href="#about">About</Nav.Link>
       <Nav.Link className='custom-nav' href="#career">Career</Nav.Link>
       <Nav.Link className='custom-nav' href="#contact">Contact Us</Nav.Link>

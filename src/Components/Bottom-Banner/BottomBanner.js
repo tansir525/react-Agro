@@ -2,6 +2,7 @@ import { Grid } from '@mui/material';
 import React from 'react';
 import { Container } from 'react-bootstrap';
 import logo from '../../Assets/logo icon.png'
+import CustomButton from '../styles/Button.style';
 import './BottomBanner.css'
 
 const BottomBanner = () => {
@@ -69,7 +70,7 @@ const BottomBanner = () => {
             </Grid>
 
            <div className='text-center mx-auto  p-5'>
-           <button className=' btn btn-success'>Explore more</button>
+           <CustomButton> View More</CustomButton>
            </div>
 
 

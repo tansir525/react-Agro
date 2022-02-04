@@ -1,7 +1,8 @@
 import { Grid } from '@mui/material';
 import React from 'react';
-import { Button, Container, Form } from 'react-bootstrap';
+import { Container, Form } from 'react-bootstrap';
 import logomini from '../../Assets/logo icon.png'
+import CustomButton from '../styles/Button.style';
 
 const FormPage = () => {
     return (
@@ -41,9 +42,7 @@ const FormPage = () => {
   <Form.Group className="mb-3" controlId="formBasicCheckbox">
     <Form.Check type="checkbox" label="Check me out" />
   </Form.Group>
-  <Button variant="success" type="submit">
-    Submit
-  </Button>
+ <CustomButton> Submit</CustomButton>
 </Form>
     
   </Grid>

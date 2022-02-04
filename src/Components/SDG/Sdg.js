@@ -1,7 +1,7 @@
 
 import {  Grid } from '@mui/material';
 import React from 'react';
-import {  Container, Button } from 'react-bootstrap';
+import {  Container } from 'react-bootstrap';
 import logomini from '../../Assets/logo icon.png'
 
 import num1 from '../../Assets/SDG/Group 396.svg'
