@@ -8,13 +8,13 @@ import './Header.css'
 const Header = () => {
     return (
         <div>
-        <Navbar className='px-3 py-2'collapseOnSelect expand="lg , md"  fixed="top"    bg="light">
+        <Navbar collapseOnSelect expand="lg , md"  fixed="top"    bg="light">
         <Container >
 
   <Navbar.Brand className='custom-logo' href="#home">       <img
         src={logo}
-        width="130"
-        height="32"
+        width="120"
+        height="30"
         className="d-inline-block align-top"
         alt="React Bootstrap logo"
       /> </Navbar.Brand>
