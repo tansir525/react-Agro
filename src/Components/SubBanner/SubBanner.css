@@ -10,6 +10,7 @@
 .subbanner h1 {
     font-size: 60px;
     font-weight: bolder;
+    color: #008000;
 }
 
 .sub-logo {
@@ -17,4 +18,9 @@
     width: 22px;
     margin-right: -7px;
     margin-top: 20px;
+}
+
+.bg {
+    background-color: rgba(175, 246, 175, 0.178);
+    padding: 30px;
 }

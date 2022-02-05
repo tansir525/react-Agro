@@ -9,5 +9,10 @@
 }
 
 .custombottombannerbackground {
-    background-color: #bdbdbd2d;
+    background-color: #f1f1f1;
+    padding: 30px;
+}
+
+.cusbottom {
+    padding: 15px;
 }

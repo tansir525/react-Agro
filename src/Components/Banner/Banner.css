@@ -2,19 +2,6 @@
     font-size: 110px;
 }
 
-.devider {
-    margin-top: 30px;
-    width: 100%;
-    height: 9rem;
-}
-
-.devider img {
-    width: 600%;
-    height: 180px;
-    opacity: 40%;
-    position: absolute;
-}
-
 @media (min-width: 350px) {
     .custom-h1 {
         font-size: 50px;

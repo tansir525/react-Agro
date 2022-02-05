@@ -25,46 +25,22 @@ const BottomBanner = () => {
 
                 
             </div>
+            <div className='cusbottom'>
+                <h4 style={{color: '#008000', fontWeight:'bold'}} className='text-center'> Introducing Project BetterFarms</h4>
+                <p style={{color: '#0A3340'}} className='text-center'>Where we work with the farmers to ensure maximum output efficiency in the farms and help them place their products in a traceable marketplace directly to stores and consumers.</p>
+            </div>
             <Grid container spacing={2}>
             <Grid item lg={6}  md={6} sm={12} xs={12}>
-                <h3 className='pb-3'>Lorem Ipsum</h3>
+                <h3 style={{fontWeight:'bold'}} className='pb-3 '>Farmer training</h3>
+                <p style={{fontWeight:'bold'}} >Farming is a science.</p>
+                <p>From the absolute basics to building a business, we’ve got it all covered in our extensively curated farming masterclasses.</p>
                 
-                <Grid container spacing={2}>
-                <Grid item xs={6}>
-                <h6>lorem ipsum ipsum ipsum </h6>
-                <h6>lorem ipsum ipsum ipsum </h6>
-                <h6>lorem ipsum ipsum ipsum </h6>
-                <h6>lorem ipsum ipsum ipsum </h6>
-                <h6>lorem ipsum ipsum ipsum </h6>
-                </Grid>
-                <Grid item xs={6}>
-                <p>nested check</p> 
-                <p>nested check</p> 
-                <p>nested check</p> 
-                <p>nested check</p> 
-                
-                </Grid>
-                </Grid>
-
+             
                 
             </Grid>
             <Grid item lg={6}  md={6} sm={12} xs={12}>
-               <h3 className='pb-3'>Lorem Ipsum </h3> 
-               <Grid container spacing={2}>
-                <Grid item xs={6}>
-                <h6>llorem ipsum ipsum</h6>
-                <h6>llorem ipsum ipsum</h6>
-                <h6>llorem ipsum ipsum</h6>
-                <h6>llorem ipsum ipsum</h6>
-                <h6>llorem ipsum ipsum</h6>
-                </Grid>
-                <Grid item xs={6}>
-                <p>nested check</p> 
-                <p>nested check</p> 
-                <p>nested check</p> 
-                <p>nested check</p> 
-                </Grid>
-                </Grid>
+               <h3 className='pb-3 text-center'>Lorem Ipsum </h3> 
+             
             </Grid>
           
             </Grid>
