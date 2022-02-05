@@ -14,6 +14,7 @@
     border-bottom: 5px solid #008000;
     transition: cubic-bezier(0.075, 0.82, 0.165, 1);
     border-radius: 4px;
+    transition-duration: .8s;
 }
 
 .custom-logo {

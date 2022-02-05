@@ -5,10 +5,12 @@ import {  Col, Container, Image, Row } from 'react-bootstrap';
 import banner from '../../Assets/banner-image-1-1.png'
 import CustomButton from '../styles/Button.style';
 import './Banner.css'
+import img from '../../Assets/SVG/Abstract-Green-Wave-PNG-Clipart.png'
 
 
 const Banner = () => {
     return (
+        <>
        <Container>
            
 
@@ -40,13 +42,14 @@ const Banner = () => {
     />    
         </Col>
         </Row>      
+    
+        </Container> 
+      <div className='devider'>
+          <img src={img} alt="" />
+          
 
-
-
-              
-              
-        </Container>  
-        
+      </div>
+        </>
     );
 };
 

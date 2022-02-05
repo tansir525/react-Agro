@@ -16,6 +16,18 @@ const CustomButton = styled.button `
  font-weight: 600;
  padding-left: 15px;
  padding-right: 15px;
+ position: absolute;
+ 
+
+ &:hover{
+    background-color: rgba(0,128,0,255);
+    transition-duration: .5s;
+    color: black;
+    box-shadow: 1px 2px green;
+    border: 1px solid transparent;
+
+    
+ }
 
 
 `;

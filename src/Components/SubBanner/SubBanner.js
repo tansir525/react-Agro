@@ -22,7 +22,7 @@ const Item = styled(Paper)(({ theme }) => ({
 
 const SubBanner = () => {
     return (
-        <div className='Subbanner-root'>
+        <div className=''>
         <Container>
         <div className='subbanner text-left mb-5'>
             <h1> <img className='sub-logo mb-2' src={logomini} alt="" srcset="" /> Environmental Consciousness</h1>
