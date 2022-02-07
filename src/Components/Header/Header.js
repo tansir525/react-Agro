@@ -22,14 +22,14 @@ const Header = () => {
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav  className="mx-auto">
       
-      <Nav.Link className='custom-nav active' href="#home" >Home</Nav.Link>
+      <Nav.Link className='custom-nav' href="#home" >Home</Nav.Link>
       <Nav.Link className='custom-nav' href="#about">About</Nav.Link>
       <Nav.Link className='custom-nav' href="#career">Career</Nav.Link>
       <Nav.Link className='custom-nav' href="#contact">Contact Us</Nav.Link>
     
     </Nav>
     <Nav>
-      <Nav.Link href="#profile"> <BsPersonCircle/></Nav.Link>      
+      <Nav.Link className='custom-nav active' href="#profile"> <BsPersonCircle/></Nav.Link>      
     </Nav>
   </Navbar.Collapse>
   </Container>
