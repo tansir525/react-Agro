@@ -7,12 +7,12 @@ import CustomButton from '../styles/Button.style';
 const FormPage = () => {
     return (
         <Container>
-              <div  className='subbanner text-left mb-5 mt-4'>
+              <div  className='subbanner text-left  mt-5'>
             <h1> <img className='sub-logo mb-2' src={logomini} alt="" srcset="" /> Contact Us</h1>
             
         </div>
 
-<div className='m-5 p-5'>
+<div className=' p-5 pb-5 mb-5'>
 <Grid  container spacing={4}>
   <Grid item lg={6}  md={6} sm={12} xs={12}>
 

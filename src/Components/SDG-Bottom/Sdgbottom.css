@@ -1,0 +1,31 @@
+ul {
+    list-style: none;
+}
+
+ul li::before {
+    content: "\2022";
+    color: #008000;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+    font-size: x-large;
+}
+
+.custom-sdgbottom {
+    margin-left: 80px;
+}
+
+.gridsdgimg {
+    align-items: center;
+    text-align: center;
+}
+
+.gridsdgimg img {
+    width: 230px;
+    height: 230px;
+}
+
+.customb {
+    margin-bottom: 160px;
+}
