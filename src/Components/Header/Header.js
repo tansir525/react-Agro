@@ -8,19 +8,19 @@ import './Header.css'
 const Header = () => {
     return (
         <div>
-        <Navbar collapseOnSelect expand="lg , md"  fixed="top"    bg="light">
+        <Navbar  className='mb-5 p-2 ' collapseOnSelect expand="lg" fixed="top" bg="light">
         <Container >
 
-  <Navbar.Brand className='custom-logo' href="#home">       <img
+  <Navbar.Brand className='custom-logo' href="/"><img
         src={logo}
         width="120"
         height="30"
         className="d-inline-block align-top"
         alt="React Bootstrap logo"
       /> </Navbar.Brand>
-  <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-  <Navbar.Collapse id="responsive-navbar-nav">
-    <Nav  className="mx-auto">
+  <Navbar.Toggle  aria-controls="responsive-navbar-nav" />
+  <Navbar.Collapse  id="responsive-navbar-nav">
+    <Nav  className="mx-auto" >
       
       <Nav.Link className='custom-nav' href="#home" >Home</Nav.Link>
       <Nav.Link className='custom-nav' href="#about">About</Nav.Link>
@@ -29,7 +29,7 @@ const Header = () => {
     
     </Nav>
     <Nav>
-      <Nav.Link className='custom-nav active' href="#profile"> <BsPersonCircle/></Nav.Link>      
+      <Nav.Link className='active' href="#profile"> <p><BsPersonCircle/></p> </Nav.Link>      
     </Nav>
   </Navbar.Collapse>
   </Container>

@@ -36,7 +36,7 @@ const Sdgbottom = () => {
         </div>  
         </Grid>
         <Grid item lg={6}  md={6} sm={12} xs={12}>
-        <img className='img-fluid ' src={map} alt="" srcset="" />
+        <img className='img-fluid custom-map' src={map} alt="" srcset="" />
             
         </Grid>
        
