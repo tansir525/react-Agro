@@ -3,6 +3,7 @@ import { Container, Nav, Navbar } from 'react-bootstrap';
 import logo from '../../Assets/Asset 16.png'
 import { BsPersonCircle } from "react-icons/bs";
 import './Header.css'
+import { Link } from 'react-router-dom';
 
 
 const Header = () => {
@@ -22,8 +23,11 @@ const Header = () => {
   <Navbar.Collapse  id="responsive-navbar-nav">
     <Nav  className="mx-auto" >
       
-      <Nav.Link className='custom-nav' href="#home" >Home</Nav.Link>
-      <Nav.Link className='custom-nav' href="#about">About</Nav.Link>
+      
+      <Nav.Link  className='custom-nav' href="#home" >  <Link to="/">Home</Link>    </Nav.Link>
+      <Link className='custom-nav'  to="/about" href="#about" >About</Link> 
+
+      <Nav.Link className='custom-nav' to="/about" >About</Nav.Link>
       <Nav.Link className='custom-nav' href="#career">Career</Nav.Link>
       <Nav.Link className='custom-nav' href="#contact">Contact Us</Nav.Link>
     

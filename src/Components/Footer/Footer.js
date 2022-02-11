@@ -7,7 +7,7 @@ import { IconContext } from 'react-icons';
 
 const Footer = () => {
     return (
-        <div className='footerBackgeound'>
+        <div className='footerBackgeound footer'>
             
 
 <Grid className='p-5' container spacing={2}>
