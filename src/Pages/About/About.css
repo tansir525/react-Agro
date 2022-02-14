@@ -1,0 +1,35 @@
+.customAbout {
+    margin-top: 90px;
+}
+
+.motherbannerabout {
+    background-color: black;
+}
+
+.aboutbanner {
+    margin-top: 80px;
+    background-image: url(../../Assets/image.jpg);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    min-height: 70vh;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.centeredabout {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: bolder;
+    font-size: 40PX;
+    background-color: rgba(0, 0, 0, 0.808);
+    padding: 8px 30PX;
+    border-radius: 10PX;
+    overflow: hidden;
+}

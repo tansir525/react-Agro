@@ -3,10 +3,11 @@ import React from 'react';
 import { Container, Form } from 'react-bootstrap';
 import logomini from '../../Assets/logo icon.png'
 import CustomButton from '../styles/Button.style';
+import './FormPage.css'
 
 const FormPage = () => {
     return (
-        <Container>
+        <Container className='customContact'>
               <div  className='subbanner text-left  mt-5'>
             <h1> <img className='sub-logo mb-2' src={logomini} alt="" srcset="" /> Contact Us</h1>
             
