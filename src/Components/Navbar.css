@@ -56,13 +56,15 @@
     color: #008000;
     text-decoration: none;
     padding: 0.5rem 1rem;
+    border-radius: 4px;
 }
 
-.nav-links:hover {
+.nav-links:hover,
+.nav-links.active {
     background-color: #008000;
     color: #0A3340;
     border-radius: 4px;
-    transition: all 0.2s ease-out;
+    transition: all 0.5s ease-in-out;
 }
 
 .fa-bars {

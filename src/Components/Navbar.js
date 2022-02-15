@@ -17,8 +17,8 @@ function Navbar() {
 
   return (
     <>
-      <nav className='navbar'>
-        <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+      <nav className='navbar' >
+        <Link to='/' className='navbar-logo' onClick={closeMobileMenu} >
           <img src={logo} alt="" srcset="" />
         </Link>
         <div className='menu-icon' onClick={handleClick}>
@@ -26,7 +26,7 @@ function Navbar() {
         </div>
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
           <ul className='nav-item'>
-            <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+            <Link to='/' className='nav-links' onClick={closeMobileMenu} >
               Home
             </Link>
           </ul>
@@ -36,6 +36,7 @@ function Navbar() {
               to='/about'
               className='nav-links'
               onClick={closeMobileMenu}
+              
             >
              About
             </Link>
