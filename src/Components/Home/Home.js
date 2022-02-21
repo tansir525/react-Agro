@@ -1,6 +1,7 @@
 import React from 'react';
 import Banner from '../Banner/Banner';
 import BottomBanner from '../Bottom-Banner/BottomBanner';
+import CarousalBanner from '../CarousalBanner/CarousalBanner';
 
 
 import FormPage from '../FormPage/FormPage';
@@ -15,6 +16,8 @@ const Home = () => {
     return (
         <>
            
+         
+           <CarousalBanner/>
            <Banner/> 
            <SubBanner/>
            <Sdg/>

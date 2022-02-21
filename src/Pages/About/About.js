@@ -1,3 +1,4 @@
+import { Grid } from '@mui/material';
 import React from 'react';
 import { Container } from 'react-bootstrap';
 import './About.css'
@@ -12,8 +13,21 @@ const About = () => {
           </div>
         <Container className='customAbout'>
           
-            <h1>ABOUT US</h1>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus odio autem itaque, cum nihil ipsam accusamus suscipit fuga, nisi maxime quidem. Cumque veritatis molestiae eum tenetur reiciendis consequatur nemo facilis?</p>
+            
+      <Grid className='customabout' container spacing={0}>
+                <Grid className='abouttitle' item xs={6}>
+                   <h1>About Us</h1> 
+                </Grid>
+                <Grid item xs={6}>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, pariatur et aspernatur aliquam iste non quidem delectus rerum ad deserunt, sunt ipsum repudiandae aliquid animi?</p>
+                </Grid>
+               
+               
+    </Grid>
+
+
+
+           
         </Container>
         </>
     );

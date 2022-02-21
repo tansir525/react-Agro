@@ -8,6 +8,8 @@ import Footer from './Components/Footer/Footer'
 import FormPage from './Components/FormPage/FormPage';
 import Navbar from './Components/Navbar';
 import About from './Pages/About/About';
+import Export from './Pages/Export/Export';
+import Manufacturing from './Pages/Manufacturing/Manufacturing';
 // import Career from './Components/Career/Career';
 
 
@@ -20,6 +22,8 @@ function App() {
     <Routes>
         <Route path="/" exact element={<Home />} />
         <Route path="/about" element={<About/>} />
+        <Route path="/export" element={<Export/>} />
+        <Route path="/manufacturing" element={<Manufacturing/>} />
         <Route path="/contact" element={<FormPage />} />
     </Routes>
     <Footer/>

@@ -1,3 +1,18 @@
+.customabout {
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.abouttitle {
+    text-align: center;
+    color: #008000;
+}
+
+.abouttitle h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+}
+
 .customAbout {
     margin-top: 90px;
 }

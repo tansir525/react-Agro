@@ -43,6 +43,24 @@ function Navbar() {
           </ul>
           <ul className='nav-item'>
             <Link
+              to='/Export'
+              className='nav-links'
+              onClick={closeMobileMenu}
+            >
+              Exports
+            </Link>
+          </ul>
+          <ul className='nav-item'>
+            <Link
+              to='/manufacturing'
+              className='nav-links'
+              onClick={closeMobileMenu}
+            >
+             Manufacturing
+            </Link>
+          </ul>
+          <ul className='nav-item'>
+            <Link
               to='/contact'
               className='nav-links'
               onClick={closeMobileMenu}
