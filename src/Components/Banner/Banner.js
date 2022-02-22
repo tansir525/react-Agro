@@ -17,7 +17,7 @@ const Banner = () => {
         <div className='cusbannartext'>
             
             <h1 className='custom-h1' > <span style={{color: '#008000', letterSpacing: '5px'}}>AGRO</span><span style={{color: 'white'}}>VERSE</span></h1>
-            <h5 style={{color: 'white', fontWeight:'bold'}}>Best Quality of food Products</h5>
+            <h5 style={{color: 'white', fontWeight:'bold'}}>We Introduce Best Quality of food</h5>
             <p className='text-white'> necessitatibus a odio beatae cupiditate id eos ducimus dolores asperiores quidem nemo distinctio saepe ullam? Pariatur?</p>
        
             <CustomButton>Explore us</CustomButton>
