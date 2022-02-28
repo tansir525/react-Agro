@@ -2,11 +2,11 @@ import { CardActionArea, CardContent, Grid, Typography } from '@mui/material';
 import React from 'react';
 import { Container} from 'react-bootstrap';
 import './SubBanner.css'
-import harb from '../../Assets/subbanner/harvest 1.svg'
-import agri from '../../Assets/subbanner/agriculture 1.svg'
+import Dairy from '../../Assets/subbanner/heads-black-white-holstein-cows-feeding-grass-stable-holland.jpg'
+import manufacture from '../../Assets/subbanner/food.png'
 import logomini from '../../Assets/logo icon.png'
-import lightning from '../../Assets/subbanner/lightning-electric-energy 1.svg'
-import tractor from '../../Assets/subbanner/tractor 1.svg'
+import lightning from '../../Assets/subbanner/Agri-Export.jpg'
+import tractor from '../../Assets/subbanner/wheat-holiday.png'
 import { styled } from '@mui/material/styles';
 import Paper from '@mui/material/Paper';
 
@@ -24,24 +24,37 @@ const SubBanner = () => {
     return (
         <div className='bg'>
         <Container>
-        <div className='subbanner text-left mb-5'>
-            <h1> <img className='sub-logo mb-2' src={logomini} alt="" srcset="" /> Environmental Consciousness</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro iste aperiam ut quod, ipsa sit quasi quae a eligendi quisquam repellat dolor tenetur et repudiandae voluptatem laborum similique doloribus blanditiis!</p>
+        <div className='subbanner text-left mb-5 mt-5'>
+            <h1> <img className='sub-logo mb-2 mt-5' src={logomini} alt="" srcset="" /> Industries and sectors</h1>
+          
         </div>
         <div className='mb-5'>
     <Grid container spacing={3}>
    
   <Grid item lg={3}  md={4} sm={12} xs={12}>
+    <Item >
+    <CardActionArea>
+    <img style={{width: '250px', height: '200px' }}  src={Dairy} alt="" srcset="" />
+  
+      </CardActionArea>
+      <CardContent>
+          <Typography className='typoicon' variant="h5" component="div">
+            DAIRY
+          </Typography>
+          
+        </CardContent>
+
+    </Item>
+  </Grid>
+  <Grid item lg={3}  md={4} sm={12} xs={12}>
     <Item>
     <CardActionArea>
-    <img className='py-2' src={harb} alt="" srcset="" />
-        <CardContent>
-          <Typography gutterBottom variant="h5" component="div">
-            Lizard
+    <img style={{width: '250px', height: '209px' }}   src={manufacture} alt="" srcset="" />
+    <CardContent>
+          <Typography className='typoicon' variant="h5" component="div">
+           MANUFACTURING
           </Typography>
-          <Typography variant="body2" color="text.secondary">
-            Lizards are a widespread group of squamate reptiles,
-          </Typography>
+          
         </CardContent>
       </CardActionArea>
 
@@ -50,30 +63,12 @@ const SubBanner = () => {
   <Grid item lg={3}  md={4} sm={12} xs={12}>
     <Item>
     <CardActionArea>
-    <img className='py-2' src={agri} alt="" srcset="" />
-        <CardContent>
-          <Typography gutterBottom variant="h5" component="div">
-            Lizard
+    <img style={{width: '250px', height: '209px' }}  src={lightning} alt="lightning" srcset="" />
+    <CardContent>
+          <Typography className='typoicon' variant="h5" component="div">
+           EXPORT
           </Typography>
-          <Typography variant="body2" color="text.secondary">
-            Lizards are a widespread group of squamate reptiles,
-          </Typography>
-        </CardContent>
-      </CardActionArea>
-
-    </Item>
-  </Grid>
-  <Grid item lg={3}  md={4} sm={12} xs={12}>
-    <Item>
-    <CardActionArea>
-    <img className='py-2' src={lightning} alt="lightning" srcset="" />
-        <CardContent>
-          <Typography gutterBottom variant="h5" component="div">
-            Lizard
-          </Typography>
-          <Typography variant="body2" color="text.secondary">
-            Lizards are a widespread group of squamate reptiles,
-          </Typography>
+          
         </CardContent>
       </CardActionArea>
     </Item>
@@ -81,14 +76,12 @@ const SubBanner = () => {
   <Grid item lg={3}  md={4} sm={12} xs={12}>
     <Item>
     <CardActionArea>
-        <img className='py-2' src={tractor} alt="tractor" srcset="" />
+        <img style={{width: '250px', height: '209px' }}  src={tractor} alt="tractor" srcset="" />
         <CardContent>
-          <Typography gutterBottom variant="h5" component="div">
-            Lizard
+          <Typography className='typoicon' variant="h5" component="div">
+          WHEAT
           </Typography>
-          <Typography variant="body2" color="text.secondary">
-            Lizards are a widespread group of squamate reptiles,
-          </Typography>
+          
         </CardContent>
       </CardActionArea>
     </Item>
