@@ -1,5 +1,5 @@
 .custom-h1 {
-    font-size: 110px;
+    font-size: 70px;
 }
 
 .cusbannartext {
@@ -10,8 +10,9 @@
     filter: brightness(90%)
 }
 
-@media (min-width: 350px) {
+
+/* @media (min-width: 350px) {
     .custom-h1 {
         font-size: 50px;
     }
-}
+} */

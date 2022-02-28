@@ -1,6 +1,6 @@
 import React from 'react';
-import {  Col, Container, Image, Row } from 'react-bootstrap';
-import banner from '../../Assets/banner-image-1-1.png'
+import {  Col, Container, Row } from 'react-bootstrap';
+
 
 import GlassCard from '../GlassCard/GlassCard';
 import CustomButton from '../styles/Button.style';
