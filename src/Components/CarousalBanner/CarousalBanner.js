@@ -1,6 +1,6 @@
 import React from 'react';
 import './CarousalBanner.css'
-import video from '../../Assets/untitled1_NcZPLZT9.mp4'
+import video from '../../Assets/The Farmer_1.MOV'
 
 const CarousalBanner = () => {
     return (
@@ -11,7 +11,7 @@ const CarousalBanner = () => {
                 width: '100%',
                 left: '50%',
                 top: '50%',
-                height: '90%',
+                height: '100%',
                 objectFit: 'cover',
                 transform: 'translate(-50%, -50%',
                 zIndex: '-1',

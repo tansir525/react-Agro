@@ -7,3 +7,7 @@
     background-color: black;
     background: black;
 } */
+
+.cusvideobackground {
+    filter: brightness(80%)
+}
