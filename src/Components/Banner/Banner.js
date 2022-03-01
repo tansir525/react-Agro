@@ -1,9 +1,10 @@
 import React from 'react';
-import {  Col, Container, Row } from 'react-bootstrap';
-
+import {  Col, Row } from 'react-bootstrap';
+// import banner from '../../Assets/banner-image-1-1.png'
 
 import GlassCard from '../GlassCard/GlassCard';
 import CustomButton from '../styles/Button.style';
+
 import './Banner.css'
 
 
@@ -11,7 +12,8 @@ import './Banner.css'
 const Banner = () => {
     return (
         <>
-       <Container className='mt-5'>
+        <div className='responsive'>
+       <div className='mt-5'>
         <Row className=' d-flex justify-content-around align-items-center mt-5'>
         <Col lg={5}  md={5} sm={12} xs={12} >
         <div className='cusbannartext'>
@@ -29,7 +31,7 @@ const Banner = () => {
         </Col>
 
 
-    <Col  lg={7}  md={7} sm={12} xs={12}>
+    <Col  lg={7}  md={7} sm={12} xs={12}  className='glassEffect'>
     {/* <Image className='bannerimg' fluid
       alt="banner"
       src={banner}
@@ -39,11 +41,12 @@ const Banner = () => {
     />     */}
     
     <GlassCard/>
+
         </Col>
         </Row>      
     
-        </Container> 
-
+        </div> 
+        </div>
         </>
     );
 };

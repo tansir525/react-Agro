@@ -32,24 +32,25 @@ const SubBanner = () => {
     <Grid container spacing={3}>
    
   <Grid item lg={3}  md={4} sm={12} xs={12}>
-    <Item >
+    <Item>
     <CardActionArea>
-    <img style={{width: '250px', height: '200px' }}  src={Dairy} alt="" srcset="" />
+    <img style={{width: '250px', height: '209px' }}  src={Dairy} alt="" srcset="" />
   
-      </CardActionArea>
+     
       <CardContent>
           <Typography className='typoicon' variant="h5" component="div">
             DAIRY
           </Typography>
           
         </CardContent>
+        </CardActionArea>
 
     </Item>
   </Grid>
   <Grid item lg={3}  md={4} sm={12} xs={12}>
     <Item>
     <CardActionArea>
-    <img style={{width: '250px', height: '209px' }}   src={manufacture} alt="" srcset="" />
+    <img style={{width: '250px', height: '209px' }} src={manufacture} alt="" srcset="" />
     <CardContent>
           <Typography className='typoicon' variant="h5" component="div">
            MANUFACTURING
@@ -79,7 +80,7 @@ const SubBanner = () => {
         <img style={{width: '250px', height: '209px' }}  src={tractor} alt="tractor" srcset="" />
         <CardContent>
           <Typography className='typoicon' variant="h5" component="div">
-          WHEAT
+          FARMING
           </Typography>
           
         </CardContent>
