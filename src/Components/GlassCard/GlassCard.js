@@ -10,13 +10,13 @@ const GlassCard = () => {
       <div className="card">
         <div className="contentbef"></div>
         <div className="content">
-          <h3 style={{color: '#008000', fontWeight: 'bolder'}}>Eco-Friendly Farming</h3>
+          <h3 style={{color: 'white', fontWeight: 'bolder'}}>Eco-Friendly Farming</h3>
           <br />
           <p>
           <IconContext.Provider
       value={{ color: '#008000', size: '15px', marginright: '15px' }}
     >
-            <ul> <BsCheckLg/> Organic agriculture</ul>
+            <ul> <BsCheckLg/>  Organic agriculture</ul>
             <ul> <BsCheckLg/> Crop Rotation and Polyculture</ul>
             <ul><BsCheckLg/> Renewable Energy Resources</ul>
             <ul><BsCheckLg/> Tillage Management</ul>

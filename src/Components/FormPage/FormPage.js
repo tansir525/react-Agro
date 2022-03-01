@@ -50,7 +50,7 @@ const FormPage = () => {
   <Grid className='p-4 mt-3' item lg={6}  md={6} sm={12} xs={12}>
 
    <h2 style={{color: '#0A3340', fontWeight:'bold'}} className='text-center mb-5 mx-4'>WE CARE ABOUT YOUR THOUGHT</h2>
-   <p className='text-center'> lot 2770-C, Jalan Industri 12, Kampung Baru Sungai Buloh, 47000 Sungai Buloh, Selangor </p>
+   <p className='text-center'> Flat- B1, House No. 16, Road No. 22, Block- K, Banani , Dhaka. </p>
   </Grid>
 </Grid>
 

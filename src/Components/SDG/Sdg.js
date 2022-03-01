@@ -17,8 +17,8 @@ const Sdg = () => {
     return (
         <div className='Subbanner-root pb-5'>
         <Container>
-          <div className='subbanner text-left mb-5'>
-            <h1> <img className='sub-logo mb-2' src={logomini} alt="" srcset="" /> Our Objective</h1>
+          <div className='subbanner text-center mb-5'>
+            <h1> <img className='sub-logo mb-5' src={logomini} alt="" srcset="" /> Our Values</h1>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro iste aperiam ut quod, ipsa sit quasi quae a eligendi quisquam repellat dolor tenetur et repudiandae voluptatem laborum similique doloribus blanditiis!</p>
         </div>
         <div>
