@@ -2,7 +2,7 @@
 import {  Grid } from '@mui/material';
 import React from 'react';
 import {  Container } from 'react-bootstrap';
-import logomini from '../../Assets/logo icon.png'
+
 
 import num1 from '../../Assets/SDG/Group 396.svg'
 import num2 from '../../Assets/SDG/Group 377.svg'
@@ -18,7 +18,8 @@ const Sdg = () => {
         <div className='Subbanner-root pb-5'>
         <Container>
           <div className='subbanner text-center mb-5'>
-            <h1> <img className='sub-logo mb-5' src={logomini} alt="" srcset="" /> Our Values</h1>
+            <h1 className='mb-5'>Our Values</h1>
+           
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro iste aperiam ut quod, ipsa sit quasi quae a eligendi quisquam repellat dolor tenetur et repudiandae voluptatem laborum similique doloribus blanditiis!</p>
         </div>
         <div>

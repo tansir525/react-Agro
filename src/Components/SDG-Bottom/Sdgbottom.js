@@ -2,7 +2,7 @@ import { Grid } from '@mui/material';
 import React from 'react';
 import { Container } from 'react-bootstrap';
 import './Sdgbottom.css'
-import map from '../../Assets/SDG/map.png'
+import map from '../../Assets/SDG/organic farm.jpg'
 // import sd1 from '../../Assets/SDG/s1.png'
 // import sd2 from '../../Assets/SDG/s2.png'
 // import sd3 from '../../Assets/SDG/s3.png'
@@ -27,8 +27,8 @@ const Sdgbottom = () => {
          <ul>
             <li>Dairy milk</li>
             <li>Fattening cattle</li>
-            <li> Mangoes</li>
-            <li>Sea fish</li>
+            <li> Wheat</li>
+            
          </ul>
 
 
