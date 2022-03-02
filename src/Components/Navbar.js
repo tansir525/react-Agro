@@ -77,7 +77,7 @@ function Navbar() {
               Contact Us
             </Link>
           </ul>
-          <ul>
+          {/* <ul>
             <Link
               to='/sign-up'
               className='nav-links-mobile'
@@ -85,7 +85,7 @@ function Navbar() {
             >
               Sign Up
             </Link>
-          </ul>
+          </ul> */}
         </ul>
        
       </nav>

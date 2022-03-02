@@ -14,7 +14,6 @@
     top: 0;
     left: 0;
     transition: .3s ease-in;
-    overflow: hidden;
 }
 
 .navbar-logo {
@@ -79,7 +78,7 @@
     display: none;
 }
 
-@media screen and (max-width: 960px) {
+@media only screen and (min-width:350px) and (max-width: 960px) {
     .navbar {
         background-color: whitesmoke;
     }
