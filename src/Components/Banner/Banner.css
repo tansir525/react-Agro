@@ -139,3 +139,23 @@
         display: block;
     }
 }
+
+@media only screen and (min-width: 300px) and (max-width: 570px) {
+    .custom-h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+    .responsive {
+        margin: 10px 20px;
+        padding: 20px;
+    }
+    .glassEffect {
+        display: none;
+    }
+    .bp {
+        text-align: center;
+    }
+    .bh {
+        text-align: center;
+    }
+}

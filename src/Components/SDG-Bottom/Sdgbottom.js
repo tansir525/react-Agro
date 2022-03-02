@@ -3,10 +3,10 @@ import React from 'react';
 import { Container } from 'react-bootstrap';
 import './Sdgbottom.css'
 import map from '../../Assets/SDG/map.png'
-import sd1 from '../../Assets/SDG/s1.png'
-import sd2 from '../../Assets/SDG/s2.png'
-import sd3 from '../../Assets/SDG/s3.png'
-import sd4 from '../../Assets/SDG/s4.png'
+// import sd1 from '../../Assets/SDG/s1.png'
+// import sd2 from '../../Assets/SDG/s2.png'
+// import sd3 from '../../Assets/SDG/s3.png'
+// import sd4 from '../../Assets/SDG/s4.png'
 
 
 
@@ -14,7 +14,7 @@ const Sdgbottom = () => {
     return (
         <Container>
 <div className='customb'>
-<Grid className='mt-5 pt-5 mb-5 pb-5' container spacing={2}>
+<Grid className='mt-5 pt-5 mb-2 pb-3' container spacing={2}>
         <Grid item lg={6}  md={6} sm={12} xs={12}>
           <div className='custom-sdgbottom'>
 
@@ -41,10 +41,8 @@ const Sdgbottom = () => {
         </Grid>
        
         </Grid>
-      <div className='mt-5 mb-5'>
-      <div className='text-center'>
-            <h2 className='mt-5' style={{color: '#008000', fontWeight:'bold'}} >We are driven by a vision for sustainability</h2>
-            </div>
+      {/* <div className='mt-5 mb-5 '>
+     
 
         <Grid className='gridsdgimg mt-5 mb-5 ' container spacing={2}>
 
@@ -62,7 +60,7 @@ const Sdgbottom = () => {
             <img src={sd4} alt="" srcset="" />  
             </Grid>
             </Grid>
-      </div>
+      </div> */}
 </div>
         </Container>
     );
